@@ -1,0 +1,27 @@
+{
+  "name": "angular-gs-simple-messages",
+  "version": "0.1.0",
+  "authors": [
+    "Gabriel Scholz <info@garbl.es>"
+  ],
+  "description": "Allows you store simple, interpolatable message templates like how it's done in Rails",
+  "main": "./build/angular-gs-simple-messages.js",
+  "keywords": ["simple","angular"],
+  "license": "MIT",
+  "homepage": "https://github.com/garbles/angular-gs-simple-messages",
+  "ignore": [
+    "src",
+    "node_modules",
+    "bower_components",
+    "test",
+    "karma.conf.js",
+    "package.json",
+    "README.md"
+  ],
+  "dependencies": {
+    "angular": ">= 1.0.0"
+  },
+  "devDependencies": {
+    "angular-mocks": ">= 1.0.0"
+  }
+}
