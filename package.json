@@ -2,7 +2,7 @@
   "name": "angular-gs-simple-messages",
   "version": "0.1.0",
   "private": true,
-  "description": "Allows you store simple, interpolatable message templates like how it's done in Rails",
+  "description": "Allows you to store simple, interpolatable message templates like how it's done in Rails",
   "main": "./build/angular-gs-simple-messages.js",
   "minified": "./build/angular-gs-simple-messages.min.js",
   "directories": {
