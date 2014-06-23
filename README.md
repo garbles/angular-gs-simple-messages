@@ -2,7 +2,7 @@
 
 [![Build Status](https://secure.travis-ci.org/garbles/angular-gs-simple-messages.png?branch=master)](https://travis-ci.org/garbles/angular-gs-simple-messages)
 
-Allows you store simple, interpolatable message templates in a single place like done in Rails with the `t` helper.
+Allows you to store simple, interpolatable message templates in a single place like done in Rails with the `t` helper.
 
 __NOTE: This plugin depends on [lodash](http://lodash.com/)__
 
