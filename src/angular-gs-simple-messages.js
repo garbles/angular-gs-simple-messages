@@ -20,7 +20,7 @@ angular.module('gs.simple-messages', [])
   this.$get = ['$injector', function ($injector) {
     var templates = $injector.get(_templates);
 
-    return function (message, data) {
+    return _.memoize(function (message, data) {
       var template = _.reduce(message.split(_delimeter), function (acc, key) {
         return acc[key];
       }, templates);
@@ -30,7 +30,7 @@ angular.module('gs.simple-messages', [])
       }
 
       return _.template(template, data || {}, { interpolate: /{{([\s\S]+?)}}/g });
-    };
+    });
   }];
 });
 
