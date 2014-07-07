@@ -29,7 +29,7 @@ angular.module('gs.simple-messages', [])
         throw 'messages service: \"' + message + '\" did not resolve a string.';
       }
 
-      return _.template(template, data, { interpolate: /{{([\s\S]+?)}}/g });
+      return _.template(template, data || {}, { interpolate: /{{([\s\S]+?)}}/g });
     };
   }];
 });
